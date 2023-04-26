@@ -1897,7 +1897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.5.3":
+"chokidar@npm:^3.5.0, chokidar@npm:^3.5.3":
   version: 3.5.3
   resolution: "chokidar@npm:3.5.3::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fchokidar%2F-%2Fchokidar-3.5.3.tgz"
   dependencies:
@@ -2320,6 +2320,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"date-time@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "date-time@npm:3.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fdate-time%2F-%2Fdate-time-3.1.0.tgz"
+  dependencies:
+    time-zone: ^1.0.0
+  checksum: f9cfcd1b15dfeabab15c0b9d18eb9e4e2d9d4371713564178d46a8f91ad577a290b5178b80050718d02d9c0cf646f8a875011e12d1ed05871e9f72c72c8a8fe6
+  languageName: node
+  linkType: hard
+
 "debug@npm:2.6.9, debug@npm:^2.2.0":
   version: 2.6.9
   resolution: "debug@npm:2.6.9::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fdebug%2F-%2Fdebug-2.6.9.tgz"
@@ -2644,6 +2653,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"electron-is-dev@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "electron-is-dev@npm:1.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Felectron-is-dev%2F-%2Felectron-is-dev-1.2.0.tgz"
+  checksum: 73eee7aa7ce90a387bf224ec26aa808237164572641ca41cdca34a046adb72406d4414c3cc5b0b5e335a6d6010886474e1325c0b0af40c9fac95210b00195fdb
+  languageName: node
+  linkType: hard
+
 "electron-packager@npm:^17.1.1":
   version: 17.1.1
   resolution: "electron-packager@npm:17.1.1::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Felectron-packager%2F-%2Felectron-packager-17.1.1.tgz"
@@ -2670,6 +2686,19 @@ __metadata:
   bin:
     electron-packager: bin/electron-packager.js
   checksum: db59ef057c47e1e2bb4b3c701a767aedef80893472d78e33ab73dd7dcf8bb77f6d5c80fe8d6f8afcd5a36bb5efe6a05f8fc425acb366f7871ad362cd6aefd9d5
+  languageName: node
+  linkType: hard
+
+"electron-reloader@npm:^1.2.3":
+  version: 1.2.3
+  resolution: "electron-reloader@npm:1.2.3::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Felectron-reloader%2F-%2Felectron-reloader-1.2.3.tgz"
+  dependencies:
+    chalk: ^4.1.0
+    chokidar: ^3.5.0
+    date-time: ^3.1.0
+    electron-is-dev: ^1.2.0
+    find-up: ^5.0.0
+  checksum: a00ead7954e81ee08d247fdef9d25600cedd97c6d5c9fd398b42db14df341b6ad44b68a49b3908fdc500fe45ff391ba42e6c74df4d8b97b24b6818feea6356eb
   languageName: node
   linkType: hard
 
@@ -5269,6 +5298,7 @@ __metadata:
     "@vercel/webpack-asset-relocator-loader": 1.7.3
     css-loader: ^6.0.0
     electron: 24.1.2
+    electron-reloader: ^1.2.3
     electron-squirrel-startup: ^1.0.0
     eslint: ^8.0.1
     eslint-plugin-import: ^2.25.0
@@ -7133,6 +7163,13 @@ __metadata:
   version: 1.1.0
   resolution: "thunky@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fthunky%2F-%2Fthunky-1.1.0.tgz"
   checksum: 993096c472b6b8f30e29dc777a8d17720e4cab448375041f20c0cb802a09a7fb2217f2a3e8cdc11851faa71c957e2db309357367fc9d7af3cb7a4d00f4b66034
+  languageName: node
+  linkType: hard
+
+"time-zone@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "time-zone@npm:1.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Ftime-zone%2F-%2Ftime-zone-1.0.0.tgz"
+  checksum: e46f5a69b8c236dcd8e91e29d40d4e7a3495ed4f59888c3f84ce1d9678e20461421a6ba41233509d47dd94bc18f1a4377764838b21b584663f942b3426dcbce8
   languageName: node
   linkType: hard
 
